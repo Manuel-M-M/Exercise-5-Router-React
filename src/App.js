@@ -1,24 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import {BrowserRouter, NavLink, Route} from 'react-router-dom';
+import Ejercicio1 from './pages/Ejercicio1';
+import Ejercicio2 from './pages/Ejercicio2';
+import Ejercicio3 from './pages/Ejercicio3';
+import Ejercicio4 from './pages/Ejercicio4';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      <nav className="row justify-content-around bg-warning">
+        <NavLink to="/Ejercicio1" exact className="font-weight-bold text-primary text-decoration-underline h-100" activeClassName="active">Ejercicio 1</NavLink>
+        <NavLink to="/Ejercicio2" exact className="font-weight-bold text-primary text-decoration-underline" activeClassName="active">Ejercicio 2</NavLink>
+        <NavLink to="/Ejercicio3" exact className="font-weight-bold text-primary text-decoration-underline" activeClassName="active">Ejercicio 3</NavLink>
+        <NavLink to="/Ejercicio4" exact className="font-weight-bold text-primary text-decoration-underline" activeClassName="active">Ejercicio 4</NavLink>
+      </nav>
+
+      <Route path="/Ejercicio1" exact component={Ejercicio1} />
+      <Route path="/Ejercicio2" exact component={Ejercicio2} />
+      <Route path="/Ejercicio3" exact component={Ejercicio3} />
+      <Route path="/Ejercicio4" exact component={Ejercicio4} />
+    </BrowserRouter>
   );
 }
 
