@@ -1,3 +1,26 @@
+﻿# 4exercises-with-React-ReactRouter-and-bootstrap
+***
+
+
+Simple React project with Hooks and react router where i realize 4 different exercise and then show a single page with a route for every one of them. I use [Bootstrap](https://getbootstrap.com/) for styles. First exercise is an easy card. Second is a list showing sections and products from a commerce. Third is a form to generate user cards and the posibility to delete every single one of them. Fourth is a todo list where you can create a new todo and then you can mark or delete it.
+
+
+
+#### [See the project](https://4-exercises-with-react-react-router-and-bootstrap.netlify.app/)
+***
+
+## Tools
+* [React](https://es.reactjs.org/).
+* [Hooks](https://reactjs.org/docs/hooks-intro.html).
+* [React router](https://reactrouter.com/).
+* [Bootstrap](https://getbootstrap.com/).
+***
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,3 +91,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
