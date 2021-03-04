@@ -6,7 +6,7 @@ Simple React project with Hooks and react router where i realize 4 different exe
 
 
 
-#### [See the project](https://4-exercises-with-react-react-router-and-bootstrap.netlify.app/)
+#### [See and try the project](https://4-exercises-with-react-react-router-and-bootstrap.netlify.app/)
 ***
 
 ## Tools
